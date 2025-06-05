@@ -9,7 +9,7 @@ function ContactMe() {
         <div className="contact-info flex-1 flex flex-col justify-center p-6 rounded-lg shadow-lg">
           <h3 className="text-2xl font-bold text-gray-800 mb-4">Contact Information</h3>
           <p className="text-lg text-gray-600">
-            <strong>Address:</strong> Accra, Ghana
+            <strong>Address:</strong> Accra, Ghana.
           </p>
           <p className="text-lg text-gray-600">
             <strong>Phone:</strong> (233) 541630292
