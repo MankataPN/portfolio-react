@@ -31,40 +31,43 @@ function NavBar() {
       {menuOpen && (
         <ul className="absolute top-[10vh] left-0 bg-white flex flex-col items-start gap-5 p-5 shadow-lg w-full sm:hidden">
           <li>
-            <Link to="/" className="text-black no-underline transition-all duration-300 shadow-lg px-4 py-2 rounded-lg bg-white-200 hover:bg-gray-300">
+            <Link to="/" className="text-black no-underline transition-all duration-300 shadow-lg px-4 py-2 rounded-lg bg-white hover:transform hover:-translate-y-2 hover:bg-gray-200 hover:shadow-2xl hover:text-white hover:bg-gradient-to-r hover:from-purple-500/60 hover:to-pink-500/50">
               Home
             </Link>
           </li>
           <li>
-            <Link className="text-black no-underline transition-all duration-300 shadow-lg px-4 py-2 rounded-lg bg-white-200 hover:bg-gray-300">
-              About Me
-            </Link>
+            <a
+              href="PearlCV.docx.pdf"
+              target="_blank" rel="noopener noreferrer"
+              className="text-black no-underline transition-all duration-300 shadow-lg px-4 py-2 rounded-lg bg-white hover:transform hover:-translate-y-2 hover:bg-gray-200 hover:shadow-2xl hover:text-white hover:bg-gradient-to-r hover:from-purple-500/60 hover:to-pink-500/50">
+              Download CV
+            </a>
           </li>
           <li>
             <a
               href="/#features"
-              className="text-black no-underline transition-all duration-300 shadow-lg px-4 py-2 rounded-lg bg-white-200 hover:bg-gray-300">
+              className="text-black no-underline transition-all duration-300 shadow-lg px-4 py-2 rounded-lg bg-white hover:transform hover:-translate-y-2 hover:bg-gray-200 hover:shadow-2xl hover:text-white hover:bg-gradient-to-r hover:from-purple-500/60 hover:to-pink-500/50">
               Features
             </a>
           </li>
           <li>
             <a
               href="/#resume"
-              className="text-black no-underline transition-all duration-300 shadow-lg px-4 py-2 rounded-lg bg-white-200 hover:bg-gray-300">
+              className="text-black no-underline transition-all duration-300 shadow-lg px-4 py-2 rounded-lg bg-white hover:transform hover:-translate-y-2 hover:bg-gray-200 hover:shadow-2xl hover:text-white hover:bg-gradient-to-r hover:from-purple-500/60 hover:to-pink-500/50">
               Resume
             </a>
           </li>
           <li>
             <a
-              href="/#portfolio"
-              className="text-black no-underline transition-all duration-300 shadow-lg px-4 py-2 rounded-lg bg-white-200 hover:bg-gray-300">
-              Portfolio
+              href="/#projects"
+              className="text-black no-underline transition-all duration-300 shadow-lg px-4 py-2 rounded-lg bg-white hover:transform hover:-translate-y-2 hover:bg-gray-200 hover:shadow-2xl hover:text-white hover:bg-gradient-to-r hover:from-purple-500/60 hover:to-pink-500/50">
+              Projects
             </a>
           </li>
           <li>
             <a
               href="/#contact"
-              className="text-black no-underline transition-all duration-300 shadow-lg px-4 py-2 rounded-lg bg-white-200 hover:bg-gray-300">
+              className="text-black no-underline transition-all duration-300 shadow-lg px-4 py-2 rounded-lg bg-white hover:transform hover:-translate-y-2 hover:bg-gray-200 hover:shadow-2xl hover:text-white hover:bg-gradient-to-r hover:from-purple-500/60 hover:to-pink-500/50">
               Contact Me
             </a>
           </li>
@@ -79,35 +82,38 @@ function NavBar() {
           </Link>
         </li>
         <li>
-          <Link className="text-black no-underline transition-all duration-300 shadow-lg px-4 py-2 rounded-lg bg-white hover:transform hover:-translate-y-2 hover:bg-gray-200 hover:shadow-2xl hover:text-white hover:bg-gradient-to-r hover:from-purple-500/60 hover:to-pink-500/50">
-            About Me
-          </Link>
+          <a
+            href="pearlcv.docx.pdf"
+            target="_blank" rel="noopener noreferrer"
+            className="text-black no-underline transition-all duration-300 shadow-lg px-4 py-2 rounded-lg bg-white hover:transform hover:-translate-y-2 hover:bg-gray-200 hover:shadow-2xl hover:text-white hover:bg-gradient-to-r hover:from-purple-500/60 hover:to-pink-500/50">
+            Download CV
+          </a>
         </li>
         <li>
           <a
             href="/#features"
-            className="text-black no-underline transition-all duration-300 shadow-lg px-4 py-2 rounded-lg bg-white-200 hover:bg-gray-300">
+            className="text-black no-underline transition-all duration-300 shadow-lg px-4 py-2 rounded-lg bg-white hover:transform hover:-translate-y-2 hover:bg-gray-200 hover:shadow-2xl hover:text-white hover:bg-gradient-to-r hover:from-purple-500/60 hover:to-pink-500/50">
             Features
           </a>
         </li>
         <li>
           <a
             href="/#resume"
-            className="text-black no-underline transition-all duration-300 shadow-lg px-4 py-2 rounded-lg bg-white-200 hover:bg-gray-300">
+            className="text-black no-underline transition-all duration-300 shadow-lg px-4 py-2 rounded-lg bg-white hover:transform hover:-translate-y-2 hover:bg-gray-200 hover:shadow-2xl hover:text-white hover:bg-gradient-to-r hover:from-purple-500/60 hover:to-pink-500/50">
             Resume
           </a>
         </li>
         <li>
           <a
-            href="/#portfolio"
-            className="text-black no-underline transition-all duration-300 shadow-lg px-4 py-2 rounded-lg bg-white-200 hover:bg-gray-300">
-            Portfolio
+            href="/#projects"
+            className="text-black no-underline transition-all duration-300 shadow-lg px-4 py-2 rounded-lg bg-white hover:transform hover:-translate-y-2 hover:bg-gray-200 hover:shadow-2xl hover:text-white hover:bg-gradient-to-r hover:from-purple-500/60 hover:to-pink-500/50">
+            Projects
           </a>
         </li>
         <li>
           <a
             href="/#contact"
-            className="text-black no-underline transition-all duration-300 shadow-lg px-4 py-2 rounded-lg bg-white-200 hover:bg-gray-300">
+            className="text-black no-underline transition-all duration-300 shadow-lg px-4 py-2 rounded-lg bg-white hover:transform hover:-translate-y-2 hover:bg-gray-200 hover:shadow-2xl hover:text-white hover:bg-gradient-to-r hover:from-purple-500/60 hover:to-pink-500/50">
             Contact Me
           </a>
         </li>

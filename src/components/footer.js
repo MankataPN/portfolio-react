@@ -73,10 +73,10 @@ function Footer() {
                         </li>
                         <li>
                             <a
-                                href="/#portfolio"
+                                href="/#projects"
                                 className="text-gray-600 hover:text-[#007bff] transition duration-300"
                             >
-                                Portfolio
+                                Projects
                             </a>
                         </li>
                         <li>
